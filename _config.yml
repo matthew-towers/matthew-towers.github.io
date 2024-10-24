@@ -29,13 +29,15 @@ url: https://matthew-towers.github.io # the base hostname & protocol for your si
 github_username: matthew-towers
 
 # Build settings
-theme: jekyll-theme-modernist
-theme: jekyll-theme-minimal
-remote_theme: pages-themes/modernist@v0.2.0
+# theme: jekyll-theme-modernist
+# remote_theme: pages-themes/modernist@v0.2.0
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+# minima:
+#   skin: solarized-light
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
